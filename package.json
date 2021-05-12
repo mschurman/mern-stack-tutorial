@@ -1,0 +1,33 @@
+{
+  "name": "mern-stack-tutorial",
+  "version": "1.0.0",
+  "description": "The tutorial at: https://blog.logrocket.com/mern-stack-tutorial/",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "validation": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:mschurman/mern-stack-tutorial"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "mschurman",
+  "license": "ISC"
+}
